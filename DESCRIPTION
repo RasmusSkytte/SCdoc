@@ -1,0 +1,31 @@
+Package: mgdocumentation
+Type: Package
+Title: "Helper package" containing only DB documentation
+Version: 2023-08-21
+Author: person("Rasmus Skytte", "Randløv", , "rske@ssi.dk", c("aut", "cre"))
+Maintainer: Rasmus Skytte Randløv <rske@ssi.dk>
+Description: 
+    This package is a helper package for the "mg" package.
+    The only purpose of this package is to have updated documentation for the DB tables.
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.2.2
+Imports:
+    rlang,
+    magrittr, 
+    DBI,
+    dplyr,
+    ggplot2,
+    lubridate,
+    purrr,
+    rmarkdown,
+    stringr,
+    tibble,
+    tidyr,
+    tidyselect,
+    data.table
+Suggests: 
+    mg,
+    roxygen2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
